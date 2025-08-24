@@ -94,13 +94,18 @@ Download the replica data on this website:[replica](https://cvg-data.inf.ethz.ch
 To download the TUM-RGBD data, please use the following command:
 
 ```bash
-bash bash_scripts/download_tum.sh
+bash download_tum.sh
 ```
 
 ### ScanNet
 
 Please follow the data downloading procedure on the [ScanNet](http://www.scan-net.org/) website, and extract color/depth frames from the `.sens` file using this [code](https://github.com/ScanNet/ScanNet/blob/master/SensReader/python/reader.py).
 
+
+After you downloads the datasets, you shuold run a .py flie to get the semantic information:
+```bash
+python get_semantic_remap.py
+```
 
 ## Benchmarking
 
