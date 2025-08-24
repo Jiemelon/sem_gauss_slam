@@ -71,12 +71,14 @@ To run sem_guass_slam, please use the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python sem_gauss.py configs/replica/replica.py
 ```
+You should download the corresponding pth file of the dinov2 in [here](h) before running the command above.
 
 To see the evaluation of the reconstructed mesh, please use the following command:
-(You should rewrite the path of the reconstructed mesh flie and true mesh file in eval_mesh/mesh_eval.py)
 ```bash
 CUDA_VISIBLE_DEVICES=0 python eval_mesh/mesh_eval.py
 ```
+You should rewrite the path of the reconstructed mesh flie and true mesh file in eval_mesh/mesh_eval.py.
+And you can download the true mesh file in [hrere](h).
 
 ## Downloads
 
