@@ -1,5 +1,5 @@
-mkdir -p data/TUM_RGBD
-cd data/TUM_RGBD
+mkdir -p data0/TUM_RGBD
+cd data0/TUM_RGBD
 wget https://vision.in.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_desk.tgz
 tar -xvzf rgbd_dataset_freiburg1_desk.tgz
 wget https://cvg.cit.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_desk2.tgz
