@@ -116,6 +116,7 @@ We thank the authors of the following repositories for their open-source code:
 - Baselines
   - [Nice-SLAM](https://github.com/cvg/nice-slam)
   - [Point-SLAM](https://github.com/eriksandstroem/Point-SLAM)
+  - [SplaTAM](https://github.com/spla-tam/SplaTAM)
 
 ## Citation
 If you find our paper and code useful, please cite us:
