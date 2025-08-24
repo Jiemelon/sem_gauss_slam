@@ -40,9 +40,6 @@
       <a href="#downloads">Downloads</a>
     </li>
     <li>
-      <a href="#benchmarking">Benchmarking</a>
-    </li>
-    <li>
       <a href="#acknowledgement">Acknowledgement</a>
     </li>
     <li>
@@ -102,14 +99,23 @@ bash download_tum.sh
 Please follow the data downloading procedure on the [ScanNet](http://www.scan-net.org/) website, and extract color/depth frames from the `.sens` file using this [code](https://github.com/ScanNet/ScanNet/blob/master/SensReader/python/reader.py).
 
 
-After you downloads the datasets, you shuold run a .py flie to get the semantic information:
+After you downloads the datasets, you shuold run a py flie to get the semantic information:
 ```bash
 python get_semantic_remap.py
 ```
 
-## Benchmarking
-
 ## Acknowledgement
+
+We thank the authors of the following repositories for their open-source code:
+
+- 3D Gaussians
+  - [Dynamic 3D Gaussians](https://github.com/JonathonLuiten/Dynamic3DGaussians)
+  - [3D Gaussian Splating](https://github.com/graphdeco-inria/gaussian-splatting)
+- Dataloaders
+  - [GradSLAM & ConceptFusion](https://github.com/gradslam/gradslam/tree/conceptfusion)
+- Baselines
+  - [Nice-SLAM](https://github.com/cvg/nice-slam)
+  - [Point-SLAM](https://github.com/eriksandstroem/Point-SLAM)
 
 ## Citation
 If you find our paper and code useful, please cite us:
