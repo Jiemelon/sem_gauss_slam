@@ -1,0 +1,5 @@
+dataset_dir: "/data0/replica/office_4"
+height: 680
+width: 1200
+sample_step: 1
+test_step: 10
