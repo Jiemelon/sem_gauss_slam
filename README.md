@@ -75,7 +75,7 @@ You should download the corresponding pth file of the dinov2 in [here](h) before
 
 To see the evaluation of the reconstructed mesh, please use the following command:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python eval_mesh/mesh_eval.py
+python eval_mesh/mesh_eval.py
 ```
 You should rewrite the path of the reconstructed mesh flie and true mesh file in eval_mesh/mesh_eval.py.
 And you can download the true mesh file in [hrere](h).
