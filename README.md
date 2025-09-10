@@ -18,10 +18,9 @@
 </p>
 
 <p align="center">
-  <video controls width="100%">
-    <source src="./mapping.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <a href="">
+    <img src="./mapping.gif" alt="Logo" width="100%">
+  </a>
 </p>
 
 <br>
