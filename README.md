@@ -78,7 +78,7 @@ To see the evaluation of the reconstructed mesh, please use the following comman
 python eval_mesh/mesh_eval.py
 ```
 You should rewrite the path of the reconstructed mesh flie and true mesh file in eval_mesh/mesh_eval.py.
-And you can download the true mesh file in [hrere](https://drive.google.com/drive/folders/1nJmYQxzT6bild9Jt8sn0oU0S6vlF60eR?usp=drive_link).
+And you can download the true mesh file in [here](https://drive.google.com/drive/folders/1nJmYQxzT6bild9Jt8sn0oU0S6vlF60eR?usp=drive_link).
 
 ## Downloads
 
