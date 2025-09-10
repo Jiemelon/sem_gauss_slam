@@ -18,9 +18,8 @@
 </p>
 
 <p align="center">
-  <a href="">
-    <img src="" alt="Logo" width="100%">
-  </a>
+    <video src="mapping.mp4" controls width="100%">
+    </video>
 </p>
 
 <br>
