@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-    <video src="mapping.mp4" controls width="100%">
+    <video src="./mapping.mp4" controls width="100%">
     </video>
 </p>
 
