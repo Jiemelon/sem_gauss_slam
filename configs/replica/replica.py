@@ -43,7 +43,11 @@ config = dict(
     model=dict(
         c_dim=16,    # feature dimension
         pretrained_model_path=f"/data0/3dg/splatam/segmentation/replica/dinov2_replica.pth",
+<<<<<<< HEAD
         n_classes=52, # number of nlasses (需要修改，这个是room0的)
+=======
+        n_classes=52, 
+>>>>>>> d0454a54cdab6123acf169b9390c5aa3575c5caa
         # 相机的参数
         crop_edge=0,
         H=680,
