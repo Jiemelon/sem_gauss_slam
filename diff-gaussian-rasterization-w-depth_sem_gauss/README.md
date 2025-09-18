@@ -5,6 +5,8 @@ However, it has been edited by Jonathon Luiten to also render 'depth' as well as
 
 This is needed for Jonathon's Dynamic 3D Gaussians work which can be found here: http://dynamic3dgaussians.github.io
 
+Based on the initial version, we add a branch of semantic information in the process, which is similar to the color information.
+
 By default, the depth is calculated as 'median depth', where the depth is the depth of the Gaussian center which causes the accumulated rays transmittance to drop below 0.5.
 If a ray doesn't reach this threshold it is given a default depth of 15. This median depth avoids the depth floaters around depth boundaries that 'mean depth' would give.
 If 'mean depth' is preffered, there is commented out code which also calculates 'mean depth'.
