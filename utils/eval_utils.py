@@ -134,7 +134,6 @@ def report_progress(params, data, i, progress_bar, iter_time_idx, sil_thres, eve
         valid_depth_mask = (data['depth'] > 0)
         silhouette = depth_sil[1, :, :]
         presence_sil_mask = (silhouette > sil_thres)
-        #TODO: 语义评估，代码放这里
 
         print("report_progress")
         for k, v in params.items():
@@ -300,7 +299,7 @@ def eval(config, dataset, final_params, num_frames, eval_dir, sil_thres,
 
         seg_net.set_mode_classification()
         semantics = semantics.unsqueeze(0)
-        out_sem = seg_net.cnn(semantics)  # TODO 注意维数对应
+        out_sem = seg_net.cnn(semantics) 
         out_sem = out_sem.detach()
 
         # Render Depth & Silhouette
@@ -552,11 +551,7 @@ def eval(config, dataset, final_params, num_frames, eval_dir, sil_thres,
 
 def decode_segmap(image, nc=25):
     #viz the semantic result
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> d0454a54cdab6123acf169b9390c5aa3575c5caa
     label_colors = np.array([(0, 0, 0),  # 0=background
                          (174, 199, 232), (152, 223, 138), (31, 119, 180), (255, 187, 120), (188, 189, 34),
                          (140, 86, 75), (255, 152, 150), (214, 39, 40), (197, 176, 213), (148, 103, 189),
@@ -584,10 +579,6 @@ def decode_segmap(image, nc=25):
                                  (227, 119, 194), (213, 92, 176), (94, 106, 211), (82, 84, 163), (100, 85, 144),
                                  (100, 218, 200)])
     """
-<<<<<<< HEAD
-
-=======
->>>>>>> d0454a54cdab6123acf169b9390c5aa3575c5caa
     r = np.zeros_like(image).astype(np.uint8)
     g = np.zeros_like(image).astype(np.uint8)
     b = np.zeros_like(image).astype(np.uint8)

@@ -13,13 +13,13 @@
     ·
     <strong>Hesheng Wang</strong></a>
   </p>
-  <h3 align="center"><a href="https://arxiv.org/pdf/2403.07494">Paper</a> |Project Page</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/pdf/2403.07494">Paper</a></h3>
   <div align="center"></div>
 </p>
 
 <p align="center">
   <a href="">
-    <img src="./mapping.gif" alt="Logo" width="100%">
+    <img src="./demo/sem_mapping.gif" alt="Logo" width="100%">
   </a>
 </p>
 
@@ -118,9 +118,6 @@ If you find our paper and code useful, please cite us:
 }
 ```
 
-## Developers
-- [Jiemelon](https://github.com/Jiemelon) ([Renjie Qin])
-- [s]() ([Siting Zhu])
 
 
 
